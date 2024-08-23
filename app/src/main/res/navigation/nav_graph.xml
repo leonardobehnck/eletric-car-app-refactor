@@ -10,4 +10,8 @@
         android:id="@+id/carFragment"
         android:name="com.example.eletriccarapp.ui.CarFragment"
         android:label="CarFragment" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.eletriccarapp.ui.FavoriteFragment"
+        android:label="FavoriteFragment" />
 </navigation>

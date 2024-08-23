@@ -2,13 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/carItem"
+        android:id="@+id/carFragment"
         android:icon="@drawable/ic_car"
         android:title="@string/carros"
         />
 
+    <!-- O id carFragment já chama o XML do fragmento -->
     <item
-        android:id="@+id/favoriteItem"
+
+        android:id="@+id/favoriteFragment"
         android:icon="@drawable/ic_star"
         android:title="@string/favoritos"
         />
